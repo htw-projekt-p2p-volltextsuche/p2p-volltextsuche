@@ -24,7 +24,7 @@ public class Main {
             peerOne.registerPeer(peerEight);
 
             //start networking
-            peerThree.startNetwork();
+            peerFour.startNetwork();
         } catch (NetworkActiveException e) {
             e.printStackTrace();
         }

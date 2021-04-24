@@ -55,9 +55,9 @@ public class PeerClient implements Peer, PeerNode {
     public String getSearchResult(String string) throws NetworkInactiveException {
         if (!networkAktiv) throw new NetworkInactiveException();
         for (String storedString : storage) {
-            if (string.equals(storedString)) return number + id + ": Found String " + storedString;
+            if (string.equals(storedString)) return number +" - "+ id + ": I know the way to " + storedString;
         }
-        return number + id + ": There is none String like this";
+        return number + " - " + id + ": There is none String like this";
     }
 
     @Override
@@ -116,6 +116,6 @@ public class PeerClient implements Peer, PeerNode {
     public void setNetworkAktive() throws NetworkActiveException {
         if (networkAktiv) throw new NetworkActiveException();
         networkAktiv = true;
-        System.out.println(number + id + ": I am alive");
+        System.out.println(number + " - " + id + ": I am alive");
     }
 }
