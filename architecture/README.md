@@ -1,3 +1,7 @@
+- [Edit Architecture on drawio](https://app.diagrams.net/#Hhtw-projekt-p2p-volltextsuche%2Fplanning-and-design%2Fmain%2Farchitecture%2FArchitecture.drawio)
+- [Edit Indexing_Speeches_Seq on drawio](https://app.diagrams.net/#Hhtw-projekt-p2p-volltextsuche%2Fplanning-and-design%2Fmain%2Farchitecture%2FIndexing_Speeches_Seq.drawio)
+- [Edit Speech_Retrieval_Seq on drawio](https://app.diagrams.net/#Hhtw-projekt-p2p-volltextsuche%2Fplanning-and-design%2Fmain%2Farchitecture%2FSpeech_Retrieval_Seq.drawio)
+
 # Beispiel Partition By Keyword von zentraler Volltextsuche aus
 
 **Drei Dokumente:** d1, d2, d3
